@@ -1,0 +1,3 @@
+# Domain model
+
+A `product` is a canonical item; a `product_variant` is an exact configuration (size, color, storage); a `merchant` is a seller; an `offer` is a specific seller's listing for a variant on a marketplace. A `price_observation` is a timestamped sourced price, not a guarantee of current checkout cost. An `affiliate_link` is an approved, user-clicked referral URL; an `outbound_click` is our event, not a confirmed sale; a `conversion_report` is third-party attributed evidence. Rankings must not use commission as a quality factor. No "verified drop" label without eligible history and comparable variants. Untrusted data and links should be quarantined before publication.
