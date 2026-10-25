@@ -1,0 +1,3 @@
+# Commercial Affiliation agent contract
+
+Read `docs/DOMAIN.md` and `docs/DATABASE_NAMING.md` before implementing changes. Treat product, variant, merchant, offer, price observation, affiliate link and conversion as different concepts. Use strict TypeScript, server-side secrets, SQL migrations, RLS and tests. No unauthorized scraping, invented market stats, fictional live prices, nonconsensual redirects or attribution manipulation. Prefer small vertical slices and tests; run typecheck, tests and build before merging. Never apply migrations to production without explicit permission. Skills in `.agents/skills` supplement these standards; third-party skills must be explicitly verified before installation.
